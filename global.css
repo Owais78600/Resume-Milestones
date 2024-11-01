@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: #0c0aa2;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+header p {
+    display: flex;
+    gap: 15px; 
+    line-height: 1;
+    margin: 5px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header p a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#summary,
+#experience,
+#education,
+#skills {
+    color: #e7f1ff;
+    text-align: center;
+    background-color: rgb(70, 86, 194);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 35px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h4 {
+    margin: 5px 0;
+}
+
+.job p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.job ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    color: #000000;
+    background: #e7f1ff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 15px; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    .contact-info {
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    section h3 {
+        font-size: 1.1em;
+    }
+
+    .job h4 {
+        font-size: 1em;
+    }
+
+    .job p {
+        font-size: 0.7em;
+    }
+
+    #skills ul {
+        padding: 0;
+    }
+
+    #skills li {
+        font-size: 0.7em;
+    }
+}
