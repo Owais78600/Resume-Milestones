@@ -101,6 +101,23 @@ header p a {
     border-radius: 35px;
 }
 
+footer {
+    background-color: #0c0aa2;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer p {
+    display: flex;
+    gap: 15px; 
+    line-height: 1;
+    margin: 5px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media (max-width: 500px) {
     header {
         padding: 15px; 
